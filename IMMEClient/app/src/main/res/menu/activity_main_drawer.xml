@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/transaction">
+        <item
+            android:id="@+id/nav_account"
+            android:title="Accounts" />
+        <item
+            android:id="@+id/nav_transaction_history"
+            android:title="Transaction History" />
+        <item
+            android:id="@+id/nav_security_setting"
+            android:title="Security Settings" />
+        <item
+            android:id="@+id/nav_recipient_list"
+            android:title="Recipient List" />
+    </group>
+
+    <item
+        android:id="@+id/nav_share"
+        android:title="Share &amp; Get Money" />
+    <item
+        android:id="@+id/nav_about"
+        android:title="About imme" />
+    <item
+        android:id="@+id/nav_exit"
+        android:title="Exit" />
+
+
+</menu>

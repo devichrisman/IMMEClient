@@ -1,0 +1,8 @@
+<resources>>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">#567890</item>
+        <item name="colorPrimary">#667788</item>
+    </style>
+</resources>

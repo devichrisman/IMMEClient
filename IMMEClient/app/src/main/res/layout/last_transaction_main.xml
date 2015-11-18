@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="#00ffffff"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:background="@color/main_lastTransaction_bg"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <TextView android:text="@string/main_lastTransaction"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:textColor="@color/textWhite"
+                android:textSize="17sp"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:background="@color/main_lastTransaction_bg_1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:id="@+id/last_transaction_1">
+
+            <TextView android:text="@string/main_lastTransaction_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
+                android:textColor="@color/textWhite"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-thin"
+                android:width="110dp" />
+
+            <TextView android:text="PT. Lazada E-Com..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:textColor="@color/textWhite"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-thin"
+                android:width="160dp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20dp">
+
+                <TextView android:text="Rp 300.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="0dp"
+                    android:textColor="@color/textWhite"
+                    android:textSize="12sp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:width="120dp"
+                    />
+
+                <TextView android:text="20 OCT 2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/textWhite"
+                    android:textSize="10sp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:width="120dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:background="@color/main_lastTransaction_bg_2"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:id="@+id/last_transaction_2">
+
+            <TextView android:text="@string/main_lastTransaction_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
+                android:textColor="@color/textWhite"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-thin"
+                android:width="110dp" />
+
+            <TextView android:text="Dhuta Pratama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:textColor="@color/textWhite"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-thin"
+                android:width="160dp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20dp">
+
+                <TextView android:text="Rp 240.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="0dp"
+                    android:textColor="@color/textWhite"
+                    android:textSize="12sp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:width="120dp"
+                    />
+
+                <TextView android:text="20 OCT 2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/textWhite"
+                    android:textSize="10sp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:width="120dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:background="@color/main_lastTransaction_bg_3"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:id="@+id/last_transaction_3">
+
+            <TextView android:text="@string/main_lastTransaction_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
+                android:textColor="@color/textWhite"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-thin"
+                android:width="110dp"/>
+
+            <TextView android:text="Indomaret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:textColor="@color/textWhite"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-thin"
+                android:width="160dp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20dp">
+
+                <TextView android:text="Rp 27.400"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="0dp"
+                    android:textColor="@color/textWhite"
+                    android:textSize="12sp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:width="120dp"
+                    />
+
+                <TextView android:text="20 OCT 2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/textWhite"
+                    android:textSize="10sp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:width="120dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,6 +1,7 @@
 package com.imme.immeclient;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class ReceiveActivity extends AppCompatActivity {
 
@@ -19,6 +21,40 @@ public class ReceiveActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        // Start Font
+
+        Typeface tf1 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv1 = (TextView) findViewById(R.id.receive_enter_amount);
+        tv1.setTypeface(tf1);
+
+        Typeface tf2 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv2 = (TextView) findViewById(R.id.receive_rp);
+        tv2.setTypeface(tf2);
+
+        Typeface tf3 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaBQ-Light.otf");
+        TextView tv3 = (TextView) findViewById(R.id.receive_balance_value);
+        tv3.setTypeface(tf3);
+
+        Typeface tf4 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv4 = (TextView) findViewById(R.id.receiver_list_text);
+        tv4.setTypeface(tf4);
+
+        Typeface tf5 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv5 = (TextView) findViewById(R.id.receiver_continue);
+        tv5.setTypeface(tf5);
+
+        Typeface tf6 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv6 = (TextView) findViewById(R.id.receive_enter_amount);
+        tv6.setTypeface(tf6);
+
+        // Close Font
     }
     
     @Override

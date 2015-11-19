@@ -25,10 +25,13 @@
     <dimen name="main_balance_layout_height">170dp</dimen>
     <dimen name="main_balance_text_paddingTop">10dp</dimen>
     <dimen name="main_balance_text_paddingLeft">30dp</dimen>
-    <dimen name="main_balance_paddingTop">25dp</dimen>
-    <dimen name="main_balance_rp_paddingTop">8dp</dimen>
+    <dimen name="main_balance_paddingTop">33dp</dimen>
+    <dimen name="main_balance_rp_paddingTop">5dp</dimen>
     <dimen name="main_balance_rp_paddingRight">5dp</dimen>
-
     <dimen name="main_lastTransaction_padding">8dp</dimen>
     <dimen name="main_LastTransaction_paddingLeft">20dp</dimen>
+
+    <dimen name="receive_rp_paddingTop">5dp</dimen>
+    <dimen name="receive_rp_paddingRight">5dp</dimen>
+
 </resources>

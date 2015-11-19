@@ -19,4 +19,9 @@
           android:title="Feedback"
           android:orderInCategory="100"
           app:showAsAction="never" />
+    <item android:id="@+id/nav_gift"
+        android:title="Gift"
+        android:icon="@drawable/button_main_gift"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
 </menu>

@@ -25,8 +25,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Enter Amount:"
-            android:fontFamily="sans-serif-thin"
-            android:id="@+id/textView"
+            android:id="@+id/receive_enter_amount"
             android:gravity="center"
             android:textColor="@color/textWhite"
             android:paddingTop="60dp"
@@ -42,15 +41,17 @@
 
             <TextView
                 android:text="Rp"
+                android:id="@+id/receive_rp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/textWhite"
                 android:textSize="25sp"
-                android:paddingTop="@dimen/main_balance_rp_paddingTop"
-                android:paddingRight="@dimen/main_balance_rp_paddingRight" />
+                android:paddingTop="@dimen/receive_rp_paddingTop"
+                android:paddingRight="@dimen/receive_rp_paddingRight" />
 
             <TextView
                 android:text="50.400"
+                android:id="@+id/receive_balance_value"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/textWhite"
@@ -64,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:paddingTop="47dp">
+            android:paddingTop="64dp">
 
             <TextView
                 android:layout_width="fill_parent"
@@ -73,7 +74,7 @@
                 android:id="@+id/receiver_list_text"
                 android:gravity="center"
                 android:textSize="11dp"
-                android:padding="8dp"
+                android:padding="10dp"
                 android:textColor="@color/textWhite"
                 android:background="#0e78a8"/>
 
@@ -81,7 +82,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Continue"
-                android:id="@+id/receiver_list_text"
+                android:id="@+id/receiver_continue"
                 android:gravity="center"
                 android:textSize="15dp"
                 android:padding="10dp"

@@ -1,16 +1,14 @@
 package com.imme.immeclient;
 
-import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -20,7 +18,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -29,7 +26,6 @@ import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
 
     Intent intents = new Intent("com.imme.immeclient.AccountActivity");
 
@@ -46,26 +42,111 @@ public class MainActivity extends AppCompatActivity
             toolbar.getLayoutParams().height = toolbar.getLayoutParams().height + getStatusBarHeight();
         }
 
+        // Start Font
+
+        Typeface tf1 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv1 = (TextView) findViewById(R.id.main_balance);
+        tv1.setTypeface(tf1);
+
+        Typeface tf2 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv2 = (TextView) findViewById(R.id.main_rp);
+        tv2.setTypeface(tf2);
+
+        Typeface tf3 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaBQ-Light.otf");
+        TextView tv3 = (TextView) findViewById(R.id.main_balance_value);
+        tv3.setTypeface(tf3);
+
+        Typeface tf4 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv4 = (TextView) findViewById(R.id.main_last_transaction);
+        tv4.setTypeface(tf4);
+
+        Typeface tf5 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv5 = (TextView) findViewById(R.id.main_history_features1);
+        tv5.setTypeface(tf5);
+
+        Typeface tf6 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv6 = (TextView) findViewById(R.id.main_history_features2);
+        tv6.setTypeface(tf6);
+
+        Typeface tf7 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv7 = (TextView) findViewById(R.id.main_history_features3);
+        tv7.setTypeface(tf7);
+
+        Typeface tf8 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv8 = (TextView) findViewById(R.id.main_history_name1);
+        tv8.setTypeface(tf8);
+
+        Typeface tf9 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv9 = (TextView) findViewById(R.id.main_history_name2);
+        tv9.setTypeface(tf9);
+
+        Typeface tf10 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv10 = (TextView) findViewById(R.id.main_history_name3);
+        tv10.setTypeface(tf10);
+
+        Typeface tf11 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv11 = (TextView) findViewById(R.id.main_history_total1);
+        tv11.setTypeface(tf11);
+
+        Typeface tf12 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv12 = (TextView) findViewById(R.id.main_history_total2);
+        tv12.setTypeface(tf12);
+
+        Typeface tf13 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv13 = (TextView) findViewById(R.id.main_history_total3);
+        tv13.setTypeface(tf13);
+
+        Typeface tf14 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv14 = (TextView) findViewById(R.id.main_history_date1);
+        tv14.setTypeface(tf14);
+
+        Typeface tf15 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv15 = (TextView) findViewById(R.id.main_history_date2);
+        tv15.setTypeface(tf15);
+
+        Typeface tf16 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv16 = (TextView) findViewById(R.id.main_history_date3);
+        tv16.setTypeface(tf16);
+
+        Typeface tf17 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv17 = (TextView) findViewById(R.id.main_hello);
+        tv17.setTypeface(tf17);
+
+        Typeface tf18 = Typeface.createFromAsset(getAssets(),
+                "fonts/HelveticaNeue-Light.otf");
+        TextView tv18 = (TextView) findViewById(R.id.main_what_do_you_need);
+        tv18.setTypeface(tf18);
+
+        // Close Font
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        ActionBar mActionBar = getSupportActionBar();
-        mActionBar.setDisplayShowHomeEnabled(false);
-        mActionBar.setDisplayShowTitleEnabled(false);
-        LayoutInflater mInflater = LayoutInflater.from(this);
-
-        View mCustomView = mInflater.inflate(R.layout.activity_about, null);
-        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.about);
-        mTitleTextView.setText("My Own Title");
-
-
-        //ActionBar actionBar = getSupportActionBar();
-        //actionBar.setTitle("");
-        //actionBar.setDisplayUseLogoEnabled(true);
-        //actionBar.setLogo(R.mipmap.imme_logo);
+        ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
+        actionBar.setTitle("");
+        actionBar.setDisplayUseLogoEnabled(true);
+        actionBar.setLogo(R.mipmap.imme_logo);
 
         startActivity(new Intent(MainActivity.this, WelcomeScreen.class));
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
@@ -156,7 +237,7 @@ public class MainActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
-        getMenuInflater().inflate(R.menu.main_gift, menu);
+
         return true;
     }
     @Override
@@ -181,6 +262,10 @@ public class MainActivity extends AppCompatActivity
             return true;
         } else if (id == R.id.nav_feedback) {
             Intent intent = new Intent("com.imme.immeclient.FeedbackActivity");
+            startActivity(intent);
+            return true;
+        } else if (id == R.id.nav_gift) {
+            Intent intent = new Intent("com.imme.immeclient.GiftActivity");
             startActivity(intent);
             return true;
         }
@@ -235,7 +320,6 @@ public class MainActivity extends AppCompatActivity
             android.os.Process.killProcess(android.os.Process.myPid());
             System.exit(1);
         }
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

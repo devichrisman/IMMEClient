@@ -44,95 +44,59 @@ public class MainActivity extends AppCompatActivity
 
         // Start Font
 
-        Typeface tf1 = Typeface.createFromAsset(getAssets(),
+        Typeface hnLight = Typeface.createFromAsset(getAssets(),
                 "fonts/HelveticaNeue-Light.otf");
-        TextView tv1 = (TextView) findViewById(R.id.main_balance);
-        tv1.setTypeface(tf1);
-
-        Typeface tf2 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv2 = (TextView) findViewById(R.id.main_rp);
-        tv2.setTypeface(tf2);
-
-        Typeface tf3 = Typeface.createFromAsset(getAssets(),
+        Typeface hbqLight = Typeface.createFromAsset(getAssets(),
                 "fonts/HelveticaBQ-Light.otf");
-        TextView tv3 = (TextView) findViewById(R.id.main_balance_value);
-        tv3.setTypeface(tf3);
 
-        Typeface tf4 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv4 = (TextView) findViewById(R.id.main_last_transaction);
-        tv4.setTypeface(tf4);
+        TextView text_main_balance = (TextView) findViewById(R.id.main_balance);
+        text_main_balance.setTypeface(hnLight);
+        TextView text_main_rp = (TextView) findViewById(R.id.main_rp);
+        text_main_rp.setTypeface(hnLight);
+        TextView text_main_balance_value = (TextView) findViewById(R.id.main_balance_value);
+        text_main_balance_value.setTypeface(hbqLight);
+        TextView text_main_last_transaction = (TextView) findViewById(R.id.main_last_transaction);
+        text_main_last_transaction.setTypeface(hnLight);
+        TextView text_main_history_features1 = (TextView) findViewById(R.id.main_history_features1);
+        text_main_history_features1.setTypeface(hnLight);
+        TextView text_main_history_features2 = (TextView) findViewById(R.id.main_history_features2);
+        text_main_history_features2.setTypeface(hnLight);
 
-        Typeface tf5 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv5 = (TextView) findViewById(R.id.main_history_features1);
-        tv5.setTypeface(tf5);
+        TextView text_main_history_features3 = (TextView) findViewById(R.id.main_history_features3);
+        text_main_history_features3.setTypeface(hnLight);
 
-        Typeface tf6 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv6 = (TextView) findViewById(R.id.main_history_features2);
-        tv6.setTypeface(tf6);
+        TextView text_main_history_name1 = (TextView) findViewById(R.id.main_history_name1);
+        text_main_history_name1.setTypeface(hnLight);
 
-        Typeface tf7 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv7 = (TextView) findViewById(R.id.main_history_features3);
-        tv7.setTypeface(tf7);
+        TextView text_main_history_name2 = (TextView) findViewById(R.id.main_history_name2);
+        text_main_history_name2.setTypeface(hnLight);
 
-        Typeface tf8 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv8 = (TextView) findViewById(R.id.main_history_name1);
-        tv8.setTypeface(tf8);
+        TextView text_main_history_name3 = (TextView) findViewById(R.id.main_history_name3);
+        text_main_history_name3.setTypeface(hnLight);
 
-        Typeface tf9 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv9 = (TextView) findViewById(R.id.main_history_name2);
-        tv9.setTypeface(tf9);
+        TextView text_main_history_total1 = (TextView) findViewById(R.id.main_history_total1);
+        text_main_history_total1.setTypeface(hnLight);
 
-        Typeface tf10 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv10 = (TextView) findViewById(R.id.main_history_name3);
-        tv10.setTypeface(tf10);
+        TextView text_main_history_total2 = (TextView) findViewById(R.id.main_history_total2);
+        text_main_history_total2.setTypeface(hnLight);
 
-        Typeface tf11 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv11 = (TextView) findViewById(R.id.main_history_total1);
-        tv11.setTypeface(tf11);
+        TextView text_main_history_total3 = (TextView) findViewById(R.id.main_history_total3);
+        text_main_history_total3.setTypeface(hnLight);
 
-        Typeface tf12 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv12 = (TextView) findViewById(R.id.main_history_total2);
-        tv12.setTypeface(tf12);
+        TextView text_main_history_date1 = (TextView) findViewById(R.id.main_history_date1);
+        text_main_history_date1.setTypeface(hnLight);
 
-        Typeface tf13 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv13 = (TextView) findViewById(R.id.main_history_total3);
-        tv13.setTypeface(tf13);
+        TextView text_main_history_date2 = (TextView) findViewById(R.id.main_history_date2);
+        text_main_history_date2.setTypeface(hnLight);
 
-        Typeface tf14 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv14 = (TextView) findViewById(R.id.main_history_date1);
-        tv14.setTypeface(tf14);
+        TextView text_main_history_date3 = (TextView) findViewById(R.id.main_history_date3);
+        text_main_history_date3.setTypeface(hnLight);
 
-        Typeface tf15 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv15 = (TextView) findViewById(R.id.main_history_date2);
-        tv15.setTypeface(tf15);
+        TextView text_main_hello = (TextView) findViewById(R.id.main_hello);
+        text_main_hello.setTypeface(hnLight);
 
-        Typeface tf16 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv16 = (TextView) findViewById(R.id.main_history_date3);
-        tv16.setTypeface(tf16);
-
-        Typeface tf17 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv17 = (TextView) findViewById(R.id.main_hello);
-        tv17.setTypeface(tf17);
-
-        Typeface tf18 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv18 = (TextView) findViewById(R.id.main_what_do_you_need);
-        tv18.setTypeface(tf18);
+        TextView text_main_what_do_you_need = (TextView) findViewById(R.id.main_what_do_you_need);
+        text_main_what_do_you_need.setTypeface(hnLight);
 
         // Close Font
 

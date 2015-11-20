@@ -35,6 +35,7 @@ public class HelpAndSupportActivity extends AppCompatActivity {
         // set a custom tint color for all system bars
         tintManager.setTintColor(Color.parseColor("#FF03B0FF"));
 
+        /*
         Button btn= (Button)findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +44,7 @@ public class HelpAndSupportActivity extends AppCompatActivity {
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
+        */
     }
 
     @Override

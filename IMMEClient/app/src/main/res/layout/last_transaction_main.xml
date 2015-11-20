@@ -34,6 +34,15 @@
             android:clickable="true"
             android:id="@+id/last_transaction_1">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/main_history_image_send_pay"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>
+
             <TextView android:text="@string/main_lastTransaction_send"
                 android:id="@+id/main_history_features1"
                 android:layout_width="wrap_content"
@@ -43,7 +52,7 @@
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
                 android:textColor="@color/textWhite"
                 android:textSize="13sp"
-                android:width="110dp" />
+                android:width="100dp" />
 
             <TextView android:text="PT. Lazada E-Com..."
                 android:id="@+id/main_history_name1"
@@ -51,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/main_lastTransaction_padding"
                 android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:paddingRight="@dimen/main_LastTransaction_paddingRight"
                 android:textColor="@color/textWhite"
                 android:textSize="15sp"
                 android:width="160dp"
@@ -98,6 +108,15 @@
             android:clickable="true"
             android:id="@+id/last_transaction_2">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/main_history_image_send_pay"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>
+
             <TextView android:text="@string/main_lastTransaction_receive"
                 android:id="@+id/main_history_features2"
                 android:layout_width="wrap_content"
@@ -107,7 +126,7 @@
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
                 android:textColor="@color/textWhite"
                 android:textSize="13sp"
-                android:width="110dp" />
+                android:width="100dp" />
 
             <TextView android:text="Dhuta Pratama"
                 android:id="@+id/main_history_name2"
@@ -163,6 +182,15 @@
             android:clickable="true"
             android:id="@+id/last_transaction_3">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/main_history_image_send_pay"
+                android:paddingTop="@dimen/main_lastTransaction_padding"
+                android:paddingBottom="@dimen/main_lastTransaction_padding"
+                android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>
+
             <TextView android:text="@string/main_lastTransaction_send"
                 android:id="@+id/main_history_features3"
                 android:layout_width="wrap_content"
@@ -172,7 +200,7 @@
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
                 android:textColor="@color/textWhite"
                 android:textSize="13sp"
-                android:width="110dp"/>
+                android:width="100dp"/>
 
             <TextView android:text="Indomaret"
                 android:id="@+id/main_history_name3"

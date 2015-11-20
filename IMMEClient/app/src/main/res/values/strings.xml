@@ -21,6 +21,7 @@
     <string name="main_lastTransaction">Last Transaction</string>
     <string name="main_lastTransaction_send">Send/Pay</string>
     <string name="main_lastTransaction_receive">Receive</string>
+    <string name="main_lastTransaction_topup">TopUp</string>
     <string name="title_activity_pin">PIN</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_security_setting">Security Settings</string>

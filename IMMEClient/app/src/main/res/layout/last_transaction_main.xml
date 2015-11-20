@@ -112,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2"
-                android:src="@drawable/main_history_image_send_pay"
+                android:src="@drawable/main_history_image_receive"
                 android:paddingTop="@dimen/main_lastTransaction_padding"
                 android:paddingBottom="@dimen/main_lastTransaction_padding"
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>
@@ -186,12 +186,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2"
-                android:src="@drawable/main_history_image_send_pay"
+                android:src="@drawable/main_history_image_topup"
                 android:paddingTop="@dimen/main_lastTransaction_padding"
                 android:paddingBottom="@dimen/main_lastTransaction_padding"
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>
 
-            <TextView android:text="@string/main_lastTransaction_send"
+            <TextView android:text="@string/main_lastTransaction_topup"
                 android:id="@+id/main_history_features3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

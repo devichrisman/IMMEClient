@@ -32,7 +32,7 @@
 
     <!-- Main Last Transaction -->
     <dimen name="main_lastTransaction_padding">8dp</dimen>
-    <dimen name="main_LastTransaction_paddingLeft">15dp</dimen>
+    <dimen name="main_LastTransaction_paddingLeft">5dp</dimen>
     <dimen name="main_LastTransaction_paddingRight">20dp</dimen>
 
     <!-- Receive RP -->

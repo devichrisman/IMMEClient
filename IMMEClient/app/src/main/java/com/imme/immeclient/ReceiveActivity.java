@@ -35,37 +35,25 @@ public class ReceiveActivity extends AppCompatActivity {
         tintManager.setTintColor(Color.parseColor("#FF03B0FF"));
 
         // Start Font
-
-        Typeface tf1 = Typeface.createFromAsset(getAssets(),
+        Typeface hnLight = Typeface.createFromAsset(getAssets(),
                 "fonts/HelveticaNeue-Light.otf");
-        TextView tv1 = (TextView) findViewById(R.id.receive_enter_amount);
-        tv1.setTypeface(tf1);
-
-        Typeface tf2 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv2 = (TextView) findViewById(R.id.receive_rp);
-        tv2.setTypeface(tf2);
-
-        Typeface tf3 = Typeface.createFromAsset(getAssets(),
+        Typeface hbqLight = Typeface.createFromAsset(getAssets(),
                 "fonts/HelveticaBQ-Light.otf");
-        TextView tv3 = (TextView) findViewById(R.id.receive_balance_value);
-        tv3.setTypeface(tf3);
+ 
+        TextView text_receive_enter_amount = (TextView) findViewById(R.id.receive_enter_amount);
+        text_receive_enter_amount.setTypeface(hnLight);
 
-        Typeface tf4 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv4 = (TextView) findViewById(R.id.receiver_list_text);
-        tv4.setTypeface(tf4);
+        TextView text_receive_rp = (TextView) findViewById(R.id.receive_rp);
+        text_receive_rp.setTypeface(hnLight);
 
-        Typeface tf5 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv5 = (TextView) findViewById(R.id.receiver_continue);
-        tv5.setTypeface(tf5);
+        TextView text_receive_balance_value = (TextView) findViewById(R.id.receive_balance_value);
+        text_receive_balance_value.setTypeface(hbqLight);
 
-        Typeface tf6 = Typeface.createFromAsset(getAssets(),
-                "fonts/HelveticaNeue-Light.otf");
-        TextView tv6 = (TextView) findViewById(R.id.receive_enter_amount);
-        tv6.setTypeface(tf6);
+        TextView text_receiver_list_text = (TextView) findViewById(R.id.receiver_list_text);
+        text_receiver_list_text.setTypeface(hnLight);
 
+        TextView text_receiver_continue = (TextView) findViewById(R.id.receiver_continue);
+        text_receiver_continue.setTypeface(hnLight);
         // Close Font
     }
     

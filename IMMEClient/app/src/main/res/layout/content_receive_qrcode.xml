@@ -10,4 +10,10 @@
     tools:showIn="@layout/activity_receive_qrcode"
     tools:context="com.imme.immeclient.ReceiveQRCodeActivity">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qr_code"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

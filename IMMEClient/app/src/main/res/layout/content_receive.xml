@@ -36,8 +36,7 @@
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:paddingTop="10dp">
+            android:layout_gravity="center_horizontal">
 
             <TextView
                 android:text="Rp"
@@ -59,6 +58,17 @@
                 android:layout_gravity="center_horizontal" />
 
         </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="#0E99DA"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/numPad">
+
 
         <LinearLayout
             android:orientation="vertical"
@@ -88,20 +98,10 @@
                 android:textSize="25dp"
                 android:padding="10dp"
                 android:textColor="@color/textWhite"
-                android:background="#00aeff"/>
+                android:background="#00aeff"
+                android:clickable="true" />
 
         </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:orientation="vertical"
-        android:background="#0E99DA"
-        android:layout_height="250dp"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/numPad">
-
 
         <TableLayout
             android:layout_width="wrap_content"
@@ -264,5 +264,6 @@
             </TableRow>
 
         </TableLayout>
+
     </LinearLayout>
 </RelativeLayout>

@@ -55,6 +55,16 @@ public class ReceiveActivity extends AppCompatActivity {
         TextView text_receiver_continue = (TextView) findViewById(R.id.receiver_continue);
         text_receiver_continue.setTypeface(hnLight);
         // Close Font
+
+
+        final Button button = (Button) findViewById(R.id.receiver_continue);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent("com.imme.immeclient.ReceiveQRCodeActivity");
+                startActivity(intent);
+            }
+        });
+
     }
     
     @Override

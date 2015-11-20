@@ -16,7 +16,7 @@
 
     <string name="main_balance">Balance</string>
     <string name="main_rupiah">Rp</string>
-    <string name="main_balance_value">310.000.000</string>
+    <string name="main_balance_value">300.000</string>
 
     <string name="main_lastTransaction">Last Transaction</string>
     <string name="main_lastTransaction_send">Send/Pay</string>

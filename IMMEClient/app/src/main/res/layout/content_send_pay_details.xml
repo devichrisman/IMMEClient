@@ -47,7 +47,7 @@
                 android:paddingRight="@dimen/main_balance_rp_paddingRight" />
 
             <TextView
-                android:text="300.000.000"
+                android:text="300.000"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/textWhite"

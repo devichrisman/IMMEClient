@@ -7,7 +7,7 @@
         android:id="@+id/transaction">
         <item
             android:id="@+id/nav_account"
-            android:title="Accounts"
+            android:title="Account"
             android:icon="@drawable/account" />
         <item
             android:id="@+id/nav_transaction_history"

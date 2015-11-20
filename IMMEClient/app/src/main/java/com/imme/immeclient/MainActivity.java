@@ -22,6 +22,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.zxing.integration.android.IntentIntegrator;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 public class MainActivity extends AppCompatActivity
@@ -151,8 +152,13 @@ public class MainActivity extends AppCompatActivity
         topup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent("com.imme.immeclient.Send_pay_details");
-                startActivity(intent);
+                IntentIntegrator integrator = new IntentIntegrator(MainActivity.this);
+                integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES);
+                integrator.setPrompt("Press back to open Receiver List");
+                integrator.setCameraId(0);  // Use a specific camera of the device
+                integrator.setBeepEnabled(false);
+                integrator.setBarcodeImageEnabled(true);
+                integrator.initiateScan();
             }
         });
 

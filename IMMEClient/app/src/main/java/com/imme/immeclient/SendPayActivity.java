@@ -75,7 +75,10 @@ public class SendPayActivity extends AppCompatActivity {
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
         if (scanResult != null) {
-            Toast.makeText(this, "Scan Result = " + scanResult.getContents(), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Scan Result = " + scanResult.getContents(), Toast.LENGTH_SHORT).show();
+
+            Intent intentView = new Intent("com.imme.immeclient.Send_pay_details");
+            startActivity(intentView);
         }
     }
 

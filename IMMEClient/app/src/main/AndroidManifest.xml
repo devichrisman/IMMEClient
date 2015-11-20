@@ -135,7 +135,7 @@
             android:label="@string/title_activity_send_pay"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppThemeGreen.NoActionBar" >
+            android:theme="@style/AppThemeBlue.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.imme.immeclient.MainActivity" />
@@ -255,7 +255,7 @@
             android:name=".Send_pay_details"
             android:label="@string/title_activity_send_pay_details"
             android:parentActivityName=".SendPayActivity"
-            android:theme="@style/AppThemeBluedark.NoActionBar" >
+            android:theme="@style/AppThemeBlue.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.imme.immeclient.SendPayActivity" />

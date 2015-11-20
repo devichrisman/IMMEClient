@@ -97,8 +97,8 @@
     <!-- Theme for Blue Colour -->
     <style name="AppThemeBlue" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#00aeff</item>
-        <item name="colorPrimaryDark">#0f84b9</item>
+        <item name="colorPrimary">#0f99da</item>
+        <item name="colorPrimaryDark">#00aeff</item>
         <item name="colorAccent">@color/colorPrimaryDark</item>
     </style>
 

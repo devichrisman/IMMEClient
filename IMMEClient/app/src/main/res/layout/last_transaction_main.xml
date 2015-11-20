@@ -52,7 +52,7 @@
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
                 android:textColor="@color/textWhite"
                 android:textSize="13sp"
-                android:width="100dp" />
+                android:width="85dp" />
 
             <TextView android:text="PT. Lazada E-Com..."
                 android:id="@+id/main_history_name1"
@@ -126,7 +126,7 @@
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
                 android:textColor="@color/textWhite"
                 android:textSize="13sp"
-                android:width="100dp" />
+                android:width="85dp" />
 
             <TextView android:text="Dhuta Pratama"
                 android:id="@+id/main_history_name2"
@@ -200,7 +200,7 @@
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"
                 android:textColor="@color/textWhite"
                 android:textSize="13sp"
-                android:width="100dp"/>
+                android:width="85dp"/>
 
             <TextView android:text="Indomaret"
                 android:id="@+id/main_history_name3"

@@ -17,13 +17,8 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="OPEN SCANNER"
-            android:id="@+id/scan_button"
-            android:layout_gravity="center_horizontal" />
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/bottomxxx">
 
         <LinearLayout
             android:orientation="vertical"
@@ -31,16 +26,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal">
 
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Receiver List"
-                android:id="@+id/receiver_list_text"
-                android:gravity="center"
-                android:textSize="20dp"
-                android:padding="15dp"
-                android:textColor="@color/textWhite"
-                android:background="#17b882"/>
 
         </LinearLayout>
 
@@ -566,4 +551,22 @@
         </ScrollView>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/openscanner">
+        <Button
+            android:layout_width="fill_parent"
+            android:background="#00aeff"
+            android:textColor="@color/textWhite"
+            android:layout_height="wrap_content"
+            android:text="Open Scanner"
+            android:id="@+id/scan_button"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
 </RelativeLayout>

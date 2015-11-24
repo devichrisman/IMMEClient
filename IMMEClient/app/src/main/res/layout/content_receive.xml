@@ -48,14 +48,13 @@
                 android:paddingTop="@dimen/receive_rp_paddingTop"
                 android:paddingRight="@dimen/receive_rp_paddingRight" />
 
-            <EditText
+            <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/receive_balance_value"
                 android:textColor="@color/textWhite"
-                android:inputType="text"
-                android:ems="10"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                android:text="@string/default_receive_balance"/>
 
 
         </LinearLayout>
@@ -262,7 +261,7 @@
                     android:layout_height="fill_parent"
                     android:layout_width="0dip"
                     android:layout_weight="1"
-                    android:id="@+id/button_receive_x"
+                    android:id="@+id/button_backspace"
                     android:src="@drawable/button_receive_x"
                     android:background="#0E99DA"/>
             </TableRow>

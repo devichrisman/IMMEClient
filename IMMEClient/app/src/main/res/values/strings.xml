@@ -163,4 +163,5 @@ distribution media, documentation, registration cards, and insertions.</string>
     <string name="user_agreement_title">User Agreement</string>
     <string name="logo_description">imme logo</string>
     <string name="title_activity_receive_qrcode">ReceiveQRCodeActivity</string>
+    <string name="default_receive_balance">0</string>
 </resources>

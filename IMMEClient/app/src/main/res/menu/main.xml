@@ -19,14 +19,13 @@
           android:title="Feedback"
           android:orderInCategory="100"
           app:showAsAction="never" />
-    <item
-        android:id="@+id/nav_about"
-        android:title="About imme"
+    <item android:id="@+id/nav_about"
+        android:title="About Imme"
         android:orderInCategory="100"
         app:showAsAction="never" />
     <item android:id="@+id/nav_gift"
         android:title="Gift"
         android:icon="@drawable/button_main_gift"
-        android:orderInCategory="100"
+        android:orderInCategory="200"
         app:showAsAction="ifRoom" />
 </menu>

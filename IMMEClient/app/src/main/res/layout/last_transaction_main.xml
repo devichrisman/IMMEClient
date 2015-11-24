@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/main_history_image_send_pay"
-                android:src="@drawable/main_history_image_send_pay"
+                android:src="@mipmap/main_last_transaction_send_pay_icon"
                 android:paddingTop="@dimen/main_lastTransaction_padding"
                 android:paddingBottom="@dimen/main_lastTransaction_padding"
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>
@@ -112,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/main_history_image_receive"
-                android:src="@drawable/main_history_image_receive"
+                android:src="@mipmap/main_last_transaction_receive_icon"
                 android:paddingTop="@dimen/main_lastTransaction_padding"
                 android:paddingBottom="@dimen/main_lastTransaction_padding"
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>
@@ -187,7 +187,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/main_history_image_topup"
-                android:src="@drawable/main_history_image_topup"
+                android:src="@mipmap/main_last_transaction_topup_icon"
                 android:paddingTop="@dimen/main_lastTransaction_padding"
                 android:paddingBottom="@dimen/main_lastTransaction_padding"
                 android:paddingLeft="@dimen/main_LastTransaction_paddingLeft"/>

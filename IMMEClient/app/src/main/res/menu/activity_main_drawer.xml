@@ -12,7 +12,7 @@
         <item
             android:id="@+id/nav_transaction_history"
             android:title="Transaction History"
-            android:icon="@mipmap/main_nav_transaction_history" />
+            android:icon="@mipmap/main_nav_transaction_history_icon" />
         <item
             android:id="@+id/nav_security_setting"
             android:title="Security Settings"
@@ -20,7 +20,7 @@
         <item
             android:id="@+id/nav_recipient_list"
             android:title="Recipient List"
-            android:icon="@mipmap/main_nav_recipient_list" />
+            android:icon="@mipmap/main_nav_recipient_list_icon" />
         <item
             android:id="@+id/nav_share"
             android:title="Share &amp; Get Money"

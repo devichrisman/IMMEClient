@@ -7,13 +7,16 @@
     <string name="action_settings">Settings</string>
 
     <!-- Slide Splash -->
-    <string name="screen1_title">Unlimited Calls For You</string>
-    <string name="screen1_desc">Call your friends, family, Relatives free of cost anytime anywhere.</string>
-    <string name="screen2_title">Group Conversations</string>
-    <string name="screen2_desc">Create your own group and share Photos, Videos etc. </string>
-    <string name="screen3_title">Synchronize with your laptop</string>
-    <string name="screen3_desc">Get notified with your calls and messages to your laptop</string>
+    <string name="screen1_title">Send/Pay</string>
+    <string name="screen1_desc">You can send or pay.</string>
 
+    <string name="screen2_title">Receive</string>
+    <string name="screen2_desc">You can Receive from your friend.</string>
+
+    <string name="screen3_title">TopUp</string>
+    <string name="screen3_desc">You can TopUp your IMME in merchant.</string>
+
+    <!-- Main Balance -->
     <string name="main_balance">Balance</string>
     <string name="main_rupiah">Rp</string>
     <string name="main_balance_value">300.000</string>

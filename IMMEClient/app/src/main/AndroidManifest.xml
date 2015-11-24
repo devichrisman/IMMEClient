@@ -233,21 +233,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AboutActivity"
-            android:label="@string/title_activity_about"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.imme.immeclient.MainActivity" />
-
-            <intent-filter>
-                <action android:name="com.imme.immeclient.AboutActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".ReceiveActivity"
             android:label="@string/title_activity_receive"
             android:parentActivityName=".MainActivity"
@@ -290,7 +275,7 @@
         </activity>
         <activity
             android:name=".GiftActivity"
-            android:label="@string/title_activity_about"
+            android:label="@string/title_activity_gift"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -313,6 +298,22 @@
                 android:value="com.imme.immeclient.MainActivity" />
             <intent-filter>
                 <action android:name="com.imme.immeclient.ReceiveQRCodeActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.imme.immeclient.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.imme.immeclient.AboutActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

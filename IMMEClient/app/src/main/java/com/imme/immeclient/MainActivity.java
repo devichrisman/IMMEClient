@@ -44,22 +44,27 @@ public class MainActivity extends AppCompatActivity
         }
 
         // Start Font
-
         Typeface hnLight = Typeface.createFromAsset(getAssets(),
                 "fonts/HelveticaNeue-Light.otf");
+
         Typeface hbqLight = Typeface.createFromAsset(getAssets(),
                 "fonts/HelveticaBQ-Light.otf");
 
         TextView text_main_balance = (TextView) findViewById(R.id.main_balance);
         text_main_balance.setTypeface(hnLight);
+
         TextView text_main_rp = (TextView) findViewById(R.id.main_rp);
         text_main_rp.setTypeface(hnLight);
+
         TextView text_main_balance_value = (TextView) findViewById(R.id.main_balance_value);
         text_main_balance_value.setTypeface(hbqLight);
+
         TextView text_main_last_transaction = (TextView) findViewById(R.id.main_last_transaction);
         text_main_last_transaction.setTypeface(hnLight);
+
         TextView text_main_history_features1 = (TextView) findViewById(R.id.main_history_features1);
         text_main_history_features1.setTypeface(hnLight);
+
         TextView text_main_history_features2 = (TextView) findViewById(R.id.main_history_features2);
         text_main_history_features2.setTypeface(hnLight);
 
@@ -99,8 +104,6 @@ public class MainActivity extends AppCompatActivity
         TextView text_main_what_do_you_need = (TextView) findViewById(R.id.main_what_do_you_need);
         text_main_what_do_you_need.setTypeface(hnLight);
 
-        // Close Font
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -116,7 +119,6 @@ public class MainActivity extends AppCompatActivity
         startActivity(new Intent(MainActivity.this, WelcomeScreen.class));
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 
-
         SystemBarTintManager tintManager = new SystemBarTintManager(this);
         // enable status bar tint
         tintManager.setStatusBarTintEnabled(true);
@@ -128,7 +130,6 @@ public class MainActivity extends AppCompatActivity
         //tintManager.setNavigationBarTintResource(R.drawable.bg_item_selected_drawable);
         // set a custom status bar drawable
         //tintManager.setStatusBarTintDrawable();
-
 
         ImageButton send_pay = (ImageButton) findViewById(R.id.send_pay);
         send_pay.setOnClickListener(new View.OnClickListener() {
@@ -184,7 +185,7 @@ public class MainActivity extends AppCompatActivity
         last_transaction_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Indomaret (-Rp27.400)", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Indomaret (+Rp27.400)", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -207,7 +208,6 @@ public class MainActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
-
         return true;
     }
     @Override
@@ -222,19 +222,28 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent("com.imme.immeclient.UserAgreementActivity");
             startActivity(intent);
             return true;
-        } else if (id == R.id.nav_privacy_policy) {
+        }
+        else if (id == R.id.nav_privacy_policy) {
             Intent intent = new Intent("com.imme.immeclient.PrivacyPolicyActivity");
             startActivity(intent);
             return true;
-        } else if (id == R.id.nav_help_support) {
+        }
+        else if (id == R.id.nav_help_support) {
             Intent intent = new Intent("com.imme.immeclient.HelpAndSupportActivity");
             startActivity(intent);
             return true;
-        } else if (id == R.id.nav_feedback) {
+        }
+        else if (id == R.id.nav_feedback) {
             Intent intent = new Intent("com.imme.immeclient.FeedbackActivity");
             startActivity(intent);
             return true;
-        } else if (id == R.id.nav_gift) {
+        }
+        else if (id == R.id.nav_about) {
+            Intent intent = new Intent("com.imme.immeclient.AboutActivity");
+            startActivity(intent);
+            return true;
+        }
+        else if (id == R.id.nav_gift) {
             Intent intent = new Intent("com.imme.immeclient.GiftActivity");
             startActivity(intent);
             return true;
@@ -251,16 +260,20 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_account) {
             startActivity(this.intents);
-        } else if (id == R.id.nav_transaction_history) {
+        }
+        else if (id == R.id.nav_transaction_history) {
             Intent intent = new Intent("com.imme.immeclient.TransactionHistoryActivity");
             startActivity(intent);
-        } else if (id == R.id.nav_security_setting) {
+        }
+        else if (id == R.id.nav_security_setting) {
             Intent intent = new Intent("com.imme.immeclient.SecuritySettingActivity");
             startActivity(intent);
-        } else if (id == R.id.nav_recipient_list) {
+        }
+        else if (id == R.id.nav_recipient_list) {
             Intent intent = new Intent("com.imme.immeclient.RecipientListActivity");
             startActivity(intent);
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.nav_share) {
             AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
             alertDialog.setTitle("Share And Get Free Money");
             alertDialog.setMessage("Your Member Code is : aab23453");
@@ -282,15 +295,12 @@ public class MainActivity extends AppCompatActivity
                 }
             });
             alertDialog.show();
-        } else if (id == R.id.nav_about) {
-            Intent intent = new Intent("com.imme.immeclient.AboutActivity");
-            startActivity(intent);
-        } else if (id == R.id.nav_exit) {
+        }
+        else if (id == R.id.nav_exit) {
             moveTaskToBack(true);
             android.os.Process.killProcess(android.os.Process.myPid());
             System.exit(1);
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

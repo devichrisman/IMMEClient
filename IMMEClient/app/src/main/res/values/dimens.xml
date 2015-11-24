@@ -33,7 +33,7 @@
     <!-- Main Last Transaction -->
     <dimen name="main_lastTransaction_padding">8dp</dimen>
     <dimen name="main_LastTransaction_paddingLeft">20dp</dimen>
-    <dimen name="main_LastTransaction_paddingLeftcolumn2">10dp</dimen>
+    <dimen name="main_LastTransaction_paddingLeftcolumn2">5dp</dimen>
     <dimen name="main_LastTransaction_paddingRight">20dp</dimen>
     <dimen name="main_LastTransaction_paddingRightcolumn3">15dp</dimen>
 

@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:src="@drawable/steve_jobs"
+            android:src="@mipmap/main_nav_steve_jobs_image"
             android:id="@+id/imageView"
             android:layout_gravity="center"/>
     </RelativeLayout>
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView3"
-                android:src="@drawable/verified"/>
+                android:src="@mipmap/main_nav_verified_icon"/>
         </LinearLayout>
 
     </LinearLayout>

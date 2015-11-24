@@ -274,27 +274,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         }
         else if (id == R.id.nav_share) {
-            AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
-            alertDialog.setTitle("Share And Get Free Money");
-            alertDialog.setMessage("Your Member Code is : aab23453");
-            alertDialog.setIcon(R.drawable.pay_icon);
-            alertDialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int which) {
-                    // here you can add functions
-                }
-            });
-            alertDialog.setNegativeButton("NO", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int which) {
-                    // here you can add functions
-                }
-            });
-
-            alertDialog.setNeutralButton("NETRAL", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int which) {
-                    // here you can add functions
-                }
-            });
-            alertDialog.show();
+            Intent intent = new Intent("com.imme.immeclient.RecipientListActivity");
+            startActivity(intent);
         }
         else if (id == R.id.nav_exit) {
             moveTaskToBack(true);

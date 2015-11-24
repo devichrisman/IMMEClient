@@ -86,8 +86,9 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sevel1"
+                android:src="@mipmap/main_payment_details_sevel_icon"
                 android:paddingRight="10dp"
+                android:paddingTop="3dp"
                 android:gravity="center"/>
 
             <TextView

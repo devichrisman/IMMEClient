@@ -23,7 +23,7 @@
             android:icon="@mipmap/main_nav_recipient_list_icon" />
         <item
             android:id="@+id/nav_share"
-            android:title="Share &amp; Get Money"
+            android:title="Invite &amp; Get Money"
             android:icon="@mipmap/main_nav_share_and_get_money_icon" />
         <item
             android:id="@+id/nav_exit"

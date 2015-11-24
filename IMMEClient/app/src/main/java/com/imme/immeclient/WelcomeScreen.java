@@ -126,7 +126,7 @@ public class WelcomeScreen extends AppCompatActivity {
 
         for (int i = 0; i < TOTAL_PAGES - 1; i++) {
             ImageView circle = new ImageView(this);
-            circle.setImageResource(R.drawable.ic_checkbox_blank_circle_white_18dp);
+            circle.setImageResource(R.mipmap.splash_screen_white_circle_icon);
             circle.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
             circle.setAdjustViewBounds(true);
             circle.setPadding(padding, 0, padding, 0);

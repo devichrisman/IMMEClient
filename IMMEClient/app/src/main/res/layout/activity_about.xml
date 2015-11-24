@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.imme.immeclient.AboutActivity"
-    android:orientation="vertical">
+    android:fitsSystemWindows="true"
+    tools:context="com.imme.immeclient.AboutActivity">
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="About Integrated Mobile Money Exchange"
-            android:textSize="8pt"
-            android:textStyle="bold"
-            android:padding="4dp"/>
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView5"
-        android:layout_gravity="center_horizontal"
-        android:src="@mipmap/imme_logo"
-        android:paddingTop="50dp"
-        android:paddingBottom="5dp"
-        android:contentDescription="@string/logo_description" />
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PT. Herantokamu Pte. Ldt."
-        android:id="@+id/copyright"
-        android:layout_gravity="center_horizontal" />
+    </android.support.design.widget.AppBarLayout>
 
-</LinearLayout>
+    <include layout="@layout/content_about" />
+
+</android.support.design.widget.CoordinatorLayout>

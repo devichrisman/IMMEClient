@@ -48,14 +48,14 @@
                 android:paddingTop="@dimen/receive_rp_paddingTop"
                 android:paddingRight="@dimen/receive_rp_paddingRight" />
 
-            <EditText
+            <TextView
+                android:text="50.400"
+                android:id="@+id/receive_balance_value"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/receive_balance_value"
                 android:textColor="@color/textWhite"
-                android:inputType="text"
-                android:ems="10"
-                android:layout_gravity="center_horizontal"/>
+                android:textSize="55sp"
+                android:layout_gravity="center_horizontal" />
 
 
         </LinearLayout>

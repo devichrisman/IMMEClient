@@ -41,4 +41,9 @@
     <dimen name="receive_rp_paddingTop">5dp</dimen>
     <dimen name="receive_rp_paddingRight">5dp</dimen>
 
+    <!-- Account -->
+    <dimen name="account_rp_paddingBottom">20dp</dimen>
+    <dimen name="account_rp_paddingRight">5dp</dimen>
+
+
 </resources>

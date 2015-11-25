@@ -116,8 +116,11 @@ public class MainActivity extends AppCompatActivity
         actionBar.setDisplayUseLogoEnabled(true);
         actionBar.setLogo(R.mipmap.imme_logo);
 
+        /* Ridding Activity
         startActivity(new Intent(MainActivity.this, WelcomeScreen.class));
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        */
+
 
         SystemBarTintManager tintManager = new SystemBarTintManager(this);
         // enable status bar tint

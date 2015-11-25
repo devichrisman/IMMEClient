@@ -49,17 +49,14 @@
                 android:paddingRight="@dimen/receive_rp_paddingRight" />
 
             <TextView
+                android:id="@+id/receive_balance_value"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/receive_balance_value"
                 android:textColor="@color/textWhite"
                 android:layout_gravity="center_horizontal"
-                android:text="@string/default_receive_balance"/>
-
-
+                android:text="@string/default_receive_balance"
+                android:textSize="55sp" />
         </LinearLayout>
-
-
 
     </LinearLayout>
 

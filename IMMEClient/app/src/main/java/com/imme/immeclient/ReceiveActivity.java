@@ -201,7 +201,7 @@ public class ReceiveActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 money = money + "0";
-                if (money.length() == 1) {
+                if (money.length() <= 2) {
                     money = "0";
                 }else {
                     money = money.substring(0, money.length()-2);

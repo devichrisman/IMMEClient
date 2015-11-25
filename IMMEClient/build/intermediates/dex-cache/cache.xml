@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-766f1676b950ee70f3083db4b066b1a17497e37a.jar" />
-    </item>
-    <item
-        jar="C:\Users\dhuta\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\core-3.2.0-b2e22263a28361c74814b0b967359b468e2ddf75.jar" />
-    </item>
-    <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.3\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="eccf1a2cb72813a3099bc2618ea9d6430b92f0fc">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-5dbc48d0ca1c751084dc3344bd084e9b2e413a78.jar" />
-    </item>
-    <item
-        jar="C:\Users\dhuta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jar="C:\Users\lasedev\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-6d6b82c8093a9b87d2b2a52afaa2b91752e14e06.jar" />
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-30fce3ffd55dfb3dec4110c647fe581ced781e99.jar" />
     </item>
     <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-4339cfad1a70c67ce470ac9c5d6d79f8ad7dc051.jar" />
-    </item>
-    <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-05e999344bc1b1472e5e5eac0e80dd376ad2c740.jar" />
-    </item>
-    <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\libs\systembartint-1.0.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="06404f77b92ec723cc132e825afe85a07da85ee6">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\systembartint-1.0.4-506bd1f0e12e20f1c1d73a409113718a434f9398.jar" />
-    </item>
-    <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-94423432c0565bc2818fe0f561c25380376c305a.jar" />
-    </item>
-    <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jar="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-71be864aa785ee706491063dabac2930fa7565cc.jar" />
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-368b08fbc836a9df0f92f10589aa120f721cdf47.jar" />
     </item>
     <item
-        jar="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jar="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-3fda0a79a8332d7a303fb71d17ac0f08c20b9636.jar" />
+    </item>
+    <item
+        jar="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="E:\IME\MobileApps\IMMEClient\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-da745c6129a7a45d607e204a06436479570ad6d5.jar" />
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-ac0c20653279e5f30c4876c326fcf9bc2100c582.jar" />
+    </item>
+    <item
+        jar="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eccf1a2cb72813a3099bc2618ea9d6430b92f0fc">
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-02aa6bd7c3959fe686a86a784c7910a920922a45.jar" />
+    </item>
+    <item
+        jar="C:\Users\lasedev\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.systembartint\systembartint\1.0.4\6404f77b92ec723cc132e825afe85a07da85ee6\systembartint-1.0.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="06404f77b92ec723cc132e825afe85a07da85ee6">
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\systembartint-1.0.4-610ec196c12453e80458d9d9fda1d96b2077f8ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\classes-e1aecb728942432dad137341a8bd8ae7d83f2b55.jar" />
+    </item>
+    <item
+        jar="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-e6af0cfef59a0d6293225ff0a1d2c7fea1e6bf16.jar" />
+    </item>
+    <item
+        jar="C:\Users\lasedev\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\core-3.2.0-29b6138f13bed0edca61a37eadbfff5f28b10b74.jar" />
+    </item>
+    <item
+        jar="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\Users\lasedev\AndroidStudioProjects\IMMEClient\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-fb2e4a480fcedb79c8a4e15abc86714b17ea3dff.jar" />
     </item>
 
 </items>

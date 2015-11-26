@@ -59,4 +59,9 @@ IMMEClient/.idea/workspace.xml
 =======
 IMMEClient/.gradle/2.4/taskArtifacts/taskArtifacts.bin
 *.bin
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+*.bin
+*.bin
 >>>>>>> origin/master

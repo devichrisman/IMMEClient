@@ -13,22 +13,23 @@
     tools:context="com.imme.immeclient.AccountActivity"
     android:orientation="vertical">
 
-    <LinearLayout
+    <ScrollView
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="fill_parent">
 
-        <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/bg_green"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:background="@drawable/account_bg"
-                    android:paddingBottom="100dp" >
+                    android:background="@drawable/account_balance_gift_bg">
 
                     <TextView
                         android:text="Balance"
@@ -44,7 +45,8 @@
                         android:orientation="horizontal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal">
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/account_balance_gift_list">
 
                         <TextView
                             android:text="Rp"
@@ -52,26 +54,105 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/textWhite"
-                            android:textSize="15sp"/>
+                            android:textSize="15sp"
+                            android:paddingTop="3dp"/>
                         <TextView
                             android:text="108.800"
+                            android:id="@+id/account_balance_value"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:textColor="#ffffff"
-                            android:paddingTop="5dp"
-                            android:textSize="30sp"
-                            android:width="110dp" />
-
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textWhite"
+                            android:textSize="30sp"/>
 
                     </LinearLayout>
 
+                    <TextView
+                        android:text="Balance Gift"
+                        android:id="@+id/account_balance_gift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:paddingTop="5dp"
+                        android:textSize="13sp"
+                        android:width="70dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:text="Rp"
+                            android:id="@+id/account_rp_balance_gift"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/textWhite"
+                            android:textSize="15sp"
+                            android:paddingTop="3dp"/>
+                        <TextView
+                            android:text="50.800"
+                            android:id="@+id/account_balance_gift_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textWhite"
+                            android:textSize="30sp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bg_green"
+                    android:paddingTop="25dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Account Number"
+                        android:paddingBottom="5dp"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:background="@drawable/account_account_number_bg"
+                        android:text="  1 2 3 4 5 6 7 8 9 0 9 8 7 6 5 4 3 2 1"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="25dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Account Setting"
+                        android:paddingBottom="5dp"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
 
 
                 </LinearLayout>
 
-        </ScrollView>
+            </LinearLayout>
 
-    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

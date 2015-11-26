@@ -43,6 +43,7 @@ Temporary Items
 .apdisk
 IMMEClient/.idea/workspace.xml
 IMMEClient/.idea/workspace.xml
+<<<<<<< HEAD
 IMMEClient/.gradle/2.4/taskArtifacts/cache.properties.lock
 IMMEClient/.gradle/2.4/taskArtifacts/cache.properties.lock
 IMMEClient/.idea/gradle.xml
@@ -55,3 +56,7 @@ IMMEClient/.gradle/2.4/taskArtifacts/fileHashes.bin
 IMMEClient/.gradle/2.4/taskArtifacts/fileSnapshots.bin
 IMMEClient/.gradle/2.4/taskArtifacts/taskArtifacts.bin
 IMMEClient/.idea/workspace.xml
+=======
+IMMEClient/.gradle/2.4/taskArtifacts/taskArtifacts.bin
+*.bin
+>>>>>>> origin/master
